@@ -71,6 +71,10 @@ header {
     background-color: firebrick;
 }
 
+.menu {
+    display: none;
+}
+
 .mini-content {
     width: 960px;
     margin: 0 auto;
@@ -160,4 +164,168 @@ footer h5 {
     width: 960px;
     margin: 0 auto;
     padding-top: 2rem;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 18px;
+        font-family: Helvetica;
+    }
+    
+    .mini-header {
+        background-color: firebrick;
+    }
+    
+    .menu {
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+    }
+
+    .mini-content {
+        display: none;
+    }
+
+    .row {
+        width: 1024px;
+        margin: 0 auto;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+    }
+    
+    .column {
+        float: left;
+        width: 47%;
+        text-align: center;
+        border: 4px solid black;
+    }
+
+    .column.hide {
+        display: none;
+    }
+
+    .tab {
+        width: 1024px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4rem;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    html {
+        font-size: 18px;
+        font-family: Helvetica;
+    }
+    
+    body {
+        width: 470px;
+    }
+
+    .main {
+        background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 15rem;
+        width: 470px;
+    }
+
+    .main-story {
+        padding-top: 10rem;
+        margin: 0 auto;
+        color: white;
+    }
+    
+    .background {
+        width: 20rem;
+        background-color: black;
+        padding: 1rem 2rem;
+    }
+
+    .main-story-heading h4 {
+        text-transform: uppercase;
+        font-size: 0.77rem;
+        font-family: Helvetica;
+        font-weight: bold;
+    }
+    
+    .main-story-content h2 {
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-family: Helvetica;
+        font-weight: bold;
+    }
+    
+    .row {
+        width: 470px;
+        margin: 0 auto;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+    }
+    
+    .column {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        border: 4px solid black;
+    }
+
+    .column.hide-hide {
+        display: none;
+    }
+
+    .tab {
+        width: auto;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 4rem;
+    }
+    
+    .location {
+        width: 90%;
+        margin-bottom: 0.5rem;
+    }
+    
+    .location-content h3 {
+        padding-left: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: black;
+        color: white;
+        margin-bottom: 0.5rem;
+    }
+    
+    .hours {
+        width: 90%;
+    }
+    
+    .hours h3 {
+        padding-left: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: black;
+        color: white;
+        margin-bottom: 0.5rem;
+    }
+    
+    footer {
+        width: auto;
+        height: 5rem;
+        background-color: black;
+        color: white;
+    }
+    
+    footer h5 {
+        margin: 0 auto;
+        text-align: center;
+    }    
+    
 }
