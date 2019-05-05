@@ -1,0 +1,163 @@
+html {
+    font-size: 18px;
+    font-family: Helvetica;
+}
+
+header {
+    background-color: black;
+}
+
+.logo {
+    width: 960px;
+    margin: 0 auto;
+    color: white;
+}
+
+.logo-img img{
+    height: 1.5rem;
+    width: auto;
+    display: block;
+    float: left;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    padding-top: 0.50rem;
+}
+
+.logo-name h3 {
+    padding-top: 0.66rem;
+    padding-bottom: 0.66rem;
+    font-family: Helvetica;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.main {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25rem;
+}
+
+.main-story {
+    padding-top: 9rem;
+    width: 960px;
+    margin: 0 auto;
+    color: white;
+}
+
+.background {
+    width: 20rem;
+    background-color: black;
+    padding: 2rem 3rem;
+}
+
+.main-story-heading h4 {
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.main-story-content h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.mini-header {
+    background-color: firebrick;
+}
+
+.mini-content {
+    width: 960px;
+    margin: 0 auto;
+    color: white;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.row {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.column {
+    width: 30%;
+    text-align: center;
+    border: 4px solid black;
+}
+
+.column img {
+    height: 9rem;
+    width: 9rem;
+    padding: 2rem;
+}
+
+.column figcaption {
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: black;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tab {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.location {
+    width: 35%;
+}
+
+.location-content h3 {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: black;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.hours {
+    width: 35%;
+}
+
+.hours h3 {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: black;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    height: 5rem;
+    background-color: black;
+    color: white;
+}
+
+footer h5 {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
