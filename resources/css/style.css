@@ -1,7 +1,12 @@
 html {
     font-size: 18px;
     font-family: Helvetica;
+    box-sizing: border-box;
 }
+
+*, *:before, *:after { 
+    box-sizing: inherit;
+  }
 
 header {
     background-color: black;
@@ -228,12 +233,7 @@ footer h5 {
     }
 
     .main {
-        background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
         height: 15rem;
-        width: 470px;
     }
 
     .main-story {
@@ -243,7 +243,7 @@ footer h5 {
     }
     
     .background {
-        width: 20rem;
+        width: 100%;
         background-color: black;
         padding: 1rem 2rem;
     }
